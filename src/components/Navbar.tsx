@@ -3,6 +3,7 @@ import {FaBars, FaTimes} from 'react-icons/fa';
 import { useRef } from 'react';
 import elukLogo from '../assets/elukLogo.png';
 
+
 export default function Navbar() {
     const navRef = useRef<HTMLDivElement>(null);
     const showNavBar = () => {
@@ -10,7 +11,6 @@ export default function Navbar() {
             navRef.current.classList.toggle("responsive_nav");
         }
     };
-
     return (
 
     <header>

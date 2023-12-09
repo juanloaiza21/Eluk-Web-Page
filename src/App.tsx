@@ -1,12 +1,14 @@
 import React from 'react'
 import Navbar from './components/Navbar'
+import Principal from './screens/Principal'
 
 function App() {
 
   return (
-    <React.Fragment> 
+      <React.Fragment>
         <Navbar />
-    </React.Fragment>
+        <Principal />
+      </React.Fragment>
   )
 }
 
